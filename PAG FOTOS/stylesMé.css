@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 
 
+:root{
+    --color-neutral-0: #03021d;
+    --color-neutral-10: #081129;
+    --color-neutral-30: #8b8784;
+    --color-neutral-40: #b9b8b8;
+}
+
 *{
     box-sizing: border-box;
     padding: 1;
     margin: 0 auto;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 1px;
 
 }
+
+
 
 body{
     background-color: #1a122e;
@@ -125,4 +136,46 @@ flex-direction: column;
     .container .container-image .image{
         width: 100%;
     }
+}
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+#footer_content{
+    background-color: var(--color-neutral-10);
+    display:block;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+#footer_contacts h1{
+    margin-bottom: 0.60rem;
+}
+
+
+#footer_turma{
+    display: flex;
+    background-color: var(--color-neutral-10);
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    flex-direction:column;
+    gap: 1.5rem;
+}
+
+#footer_turma p{
+    color: var(--color-neutral-30);
+}
+
+#footer_copyright{
+    display: flex;
+    justify-content:center;
+    background-color: var(--color-neutral-0);
+    
+    padding: 10px;
+    font-weight: 1;
 }

@@ -28,6 +28,9 @@ body{
     padding: 0px;
     font-family: 'Poppins',sans-serif;
 }
+span{
+    color: white;
+}
 
 header nav{
     display: flex;

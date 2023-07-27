@@ -66,6 +66,14 @@ flex-direction: column;
 max-width: 1600px;
 }
 
+.bandei{
+    padding: 15px;
+    margin: 0 auto;
+    border: 1px solid #faab00;
+    border-radius: 30px;
+max-width: 1300px;
+}
+
 .container{
     padding: 25px 9%;
     text-align: center;
